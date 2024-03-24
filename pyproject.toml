@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "adas-project"
+version = "1.0.0"
+description = "This Utility is used to Process ADAS data."
+authors = ["Aman Ranjan <aman.ranjan@mapmyindia.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gdal = "^3.8.4"
+pyqt5 = "^5.15.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
