@@ -1,0 +1,1 @@
+find . | grep -E "(/__pycache__$|\.pytest_cache|\.vscode|\.pyc$|\.pyo$)" | xargs rm -rf
